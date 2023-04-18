@@ -863,7 +863,7 @@ def lower_body_add():
         obj.origin = db_sess.query(Countries).filter(Countries.name == form.origin.data,
                                                      Countries.deleted == 0).first().id
         obj.clasp = db_sess.query(Clasps).filter(Clasps.name == form.clasp.data, Clasps.deleted == 0).first().id
-        obj.length = db_sess.query(TrouserLengths).filter(TrouserLengths.name == form.lengh.data,
+        obj.length = db_sess.query(TrouserLengths).filter(TrouserLengths.name == form.length.data,
                                                           TrouserLengths.deleted == 0).first().id
         obj.fit = db_sess.query(Fits).filter(Fits.name == form.fit.data, Fits.deleted == 0).first().id
         if form.picture.data:
