@@ -1217,6 +1217,8 @@ def users_del(id_):
         flag = False
         logout_user()
     for i in db_sess.query(Wardrobe).filter(Wardrobe.owner == id_).all():
+        if str(i.picture) and os.path.exists("static/img/" + str(i.picture)):
+            os.remove("static/img/" + i.picture)
         db_sess.delete(i)
     db_sess.delete(obj)
     db_sess.commit()

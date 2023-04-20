@@ -2561,3 +2561,72 @@ KeyError: 'name'
 2023-04-20 19:30:02,545 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
  * Running on http://127.0.0.1:8080
 2023-04-20 19:30:02,545 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2023-04-20 19:32:02,896 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-04-20 19:32:02,897 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2023-04-20 19:32:08,327 - werkzeug - INFO - 127.0.0.1 - - [20/Apr/2023 19:32:08] "GET / HTTP/1.1" 200 -
+2023-04-20 19:32:08,990 - werkzeug - INFO - 127.0.0.1 - - [20/Apr/2023 19:32:08] "[36mGET /static/img/pfp/base_png.jpg HTTP/1.1[0m" 304 -
+2023-04-20 19:32:12,482 - werkzeug - INFO - 127.0.0.1 - - [20/Apr/2023 19:32:12] "[32mGET /logout HTTP/1.1[0m" 302 -
+2023-04-20 19:32:12,508 - werkzeug - INFO - 127.0.0.1 - - [20/Apr/2023 19:32:12] "GET / HTTP/1.1" 200 -
+2023-04-20 19:32:21,700 - werkzeug - INFO - 127.0.0.1 - - [20/Apr/2023 19:32:21] "[32mPOST / HTTP/1.1[0m" 302 -
+2023-04-20 19:32:21,744 - werkzeug - INFO - 127.0.0.1 - - [20/Apr/2023 19:32:21] "GET / HTTP/1.1" 200 -
+2023-04-20 19:32:21,863 - werkzeug - INFO - 127.0.0.1 - - [20/Apr/2023 19:32:21] "[36mGET /static/img/pfp/base_png.jpg HTTP/1.1[0m" 304 -
+2023-04-20 19:32:25,336 - werkzeug - INFO - 127.0.0.1 - - [20/Apr/2023 19:32:25] "GET /wardrobe/!!!None HTTP/1.1" 200 -
+2023-04-20 19:32:25,469 - werkzeug - INFO - 127.0.0.1 - - [20/Apr/2023 19:32:25] "[36mGET /static/img/pfp/base_png.jpg HTTP/1.1[0m" 304 -
+2023-04-20 19:32:30,815 - werkzeug - INFO - 127.0.0.1 - - [20/Apr/2023 19:32:30] "GET /wardrobe/add/Hats HTTP/1.1" 200 -
+2023-04-20 19:32:30,916 - werkzeug - INFO - 127.0.0.1 - - [20/Apr/2023 19:32:30] "[36mGET /static/img/pfp/base_png.jpg HTTP/1.1[0m" 304 -
+2023-04-20 19:32:44,459 - werkzeug - INFO - 127.0.0.1 - - [20/Apr/2023 19:32:44] "[32mPOST /wardrobe/add/Hats HTTP/1.1[0m" 302 -
+2023-04-20 19:32:44,528 - werkzeug - INFO - 127.0.0.1 - - [20/Apr/2023 19:32:44] "GET /wardrobe/!!!None HTTP/1.1" 200 -
+2023-04-20 19:32:44,642 - werkzeug - INFO - 127.0.0.1 - - [20/Apr/2023 19:32:44] "[36mGET /static/img/pfp/base_png.jpg HTTP/1.1[0m" 304 -
+2023-04-20 19:32:46,721 - werkzeug - INFO - 127.0.0.1 - - [20/Apr/2023 19:32:46] "GET /show/Wardrobe/37 HTTP/1.1" 200 -
+2023-04-20 19:32:46,873 - werkzeug - INFO - 127.0.0.1 - - [20/Apr/2023 19:32:46] "GET /static/img/wardrobe/pic_Fedora.png HTTP/1.1" 200 -
+2023-04-20 19:32:46,902 - werkzeug - INFO - 127.0.0.1 - - [20/Apr/2023 19:32:46] "[36mGET /static/img/pfp/base_png.jpg HTTP/1.1[0m" 304 -
+2023-04-20 19:33:01,496 - werkzeug - INFO - 127.0.0.1 - - [20/Apr/2023 19:33:01] "GET /main HTTP/1.1" 200 -
+2023-04-20 19:33:01,640 - werkzeug - INFO - 127.0.0.1 - - [20/Apr/2023 19:33:01] "[36mGET /static/img/pfp/base_png.jpg HTTP/1.1[0m" 304 -
+2023-04-20 19:33:16,145 - werkzeug - INFO - 127.0.0.1 - - [20/Apr/2023 19:33:16] "GET /wardrobe/add/Hats HTTP/1.1" 200 -
+2023-04-20 19:33:16,311 - werkzeug - INFO - 127.0.0.1 - - [20/Apr/2023 19:33:16] "[36mGET /static/img/pfp/base_png.jpg HTTP/1.1[0m" 304 -
+2023-04-20 19:33:27,482 - werkzeug - INFO - 127.0.0.1 - - [20/Apr/2023 19:33:27] "[32mPOST /wardrobe/add/Hats HTTP/1.1[0m" 302 -
+2023-04-20 19:33:27,542 - werkzeug - INFO - 127.0.0.1 - - [20/Apr/2023 19:33:27] "GET /wardrobe/!!!None HTTP/1.1" 200 -
+2023-04-20 19:33:27,652 - werkzeug - INFO - 127.0.0.1 - - [20/Apr/2023 19:33:27] "[36mGET /static/img/pfp/base_png.jpg HTTP/1.1[0m" 304 -
+2023-04-20 19:33:30,649 - werkzeug - INFO - 127.0.0.1 - - [20/Apr/2023 19:33:30] "GET /show/Wardrobe/38 HTTP/1.1" 200 -
+2023-04-20 19:33:30,788 - werkzeug - INFO - 127.0.0.1 - - [20/Apr/2023 19:33:30] "GET /static/img/wardrobe/pic_Fedora1.png HTTP/1.1" 200 -
+2023-04-20 19:33:30,870 - werkzeug - INFO - 127.0.0.1 - - [20/Apr/2023 19:33:30] "[36mGET /static/img/pfp/base_png.jpg HTTP/1.1[0m" 304 -
+2023-04-20 19:33:38,272 - werkzeug - INFO - 127.0.0.1 - - [20/Apr/2023 19:33:38] "GET /info HTTP/1.1" 200 -
+2023-04-20 19:33:38,394 - werkzeug - INFO - 127.0.0.1 - - [20/Apr/2023 19:33:38] "GET /static/img/pfp/base_png.jpg HTTP/1.1" 200 -
+2023-04-20 19:33:39,694 - werkzeug - INFO - 127.0.0.1 - - [20/Apr/2023 19:33:39] "[32mGET /users/del/8 HTTP/1.1[0m" 302 -
+2023-04-20 19:33:39,723 - werkzeug - INFO - 127.0.0.1 - - [20/Apr/2023 19:33:39] "GET / HTTP/1.1" 200 -
+2023-04-20 19:36:28,980 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-04-20 19:36:28,981 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2023-04-20 19:36:29,567 - werkzeug - INFO - 127.0.0.1 - - [20/Apr/2023 19:36:29] "GET / HTTP/1.1" 200 -
+2023-04-20 19:36:30,823 - werkzeug - INFO - 127.0.0.1 - - [20/Apr/2023 19:36:30] "GET /register HTTP/1.1" 200 -
+2023-04-20 19:37:03,051 - werkzeug - INFO - 127.0.0.1 - - [20/Apr/2023 19:37:03] "POST /register HTTP/1.1" 200 -
+2023-04-20 19:37:13,412 - werkzeug - INFO - 127.0.0.1 - - [20/Apr/2023 19:37:13] "[32mPOST /register HTTP/1.1[0m" 302 -
+2023-04-20 19:37:13,460 - werkzeug - INFO - 127.0.0.1 - - [20/Apr/2023 19:37:13] "GET / HTTP/1.1" 200 -
+2023-04-20 19:37:14,058 - werkzeug - INFO - 127.0.0.1 - - [20/Apr/2023 19:37:14] "[36mGET /static/img/pfp/base_png.jpg HTTP/1.1[0m" 304 -
+2023-04-20 19:37:18,068 - werkzeug - INFO - 127.0.0.1 - - [20/Apr/2023 19:37:18] "GET /wardrobe/add/Hats HTTP/1.1" 200 -
+2023-04-20 19:37:18,215 - werkzeug - INFO - 127.0.0.1 - - [20/Apr/2023 19:37:18] "[36mGET /static/img/pfp/base_png.jpg HTTP/1.1[0m" 304 -
+2023-04-20 19:37:40,321 - werkzeug - INFO - 127.0.0.1 - - [20/Apr/2023 19:37:40] "[32mPOST /wardrobe/add/Hats HTTP/1.1[0m" 302 -
+2023-04-20 19:37:40,398 - werkzeug - INFO - 127.0.0.1 - - [20/Apr/2023 19:37:40] "GET /wardrobe/!!!None HTTP/1.1" 200 -
+2023-04-20 19:37:40,531 - werkzeug - INFO - 127.0.0.1 - - [20/Apr/2023 19:37:40] "[36mGET /static/img/pfp/base_png.jpg HTTP/1.1[0m" 304 -
+2023-04-20 19:37:42,820 - werkzeug - INFO - 127.0.0.1 - - [20/Apr/2023 19:37:42] "GET /show/Wardrobe/39 HTTP/1.1" 200 -
+2023-04-20 19:37:42,925 - werkzeug - INFO - 127.0.0.1 - - [20/Apr/2023 19:37:42] "GET /static/img/wardrobe/pic_Cowboy.png HTTP/1.1" 200 -
+2023-04-20 19:37:42,991 - werkzeug - INFO - 127.0.0.1 - - [20/Apr/2023 19:37:42] "[36mGET /static/img/pfp/base_png.jpg HTTP/1.1[0m" 304 -
+2023-04-20 19:37:47,252 - werkzeug - INFO - 127.0.0.1 - - [20/Apr/2023 19:37:47] "GET /wardrobe/add/Hats HTTP/1.1" 200 -
+2023-04-20 19:37:47,377 - werkzeug - INFO - 127.0.0.1 - - [20/Apr/2023 19:37:47] "[36mGET /static/img/pfp/base_png.jpg HTTP/1.1[0m" 304 -
+2023-04-20 19:38:03,199 - werkzeug - INFO - 127.0.0.1 - - [20/Apr/2023 19:38:03] "[32mPOST /wardrobe/add/Hats HTTP/1.1[0m" 302 -
+2023-04-20 19:38:03,273 - werkzeug - INFO - 127.0.0.1 - - [20/Apr/2023 19:38:03] "GET /wardrobe/!!!None HTTP/1.1" 200 -
+2023-04-20 19:38:03,377 - werkzeug - INFO - 127.0.0.1 - - [20/Apr/2023 19:38:03] "[36mGET /static/img/pfp/base_png.jpg HTTP/1.1[0m" 304 -
+2023-04-20 19:38:04,997 - werkzeug - INFO - 127.0.0.1 - - [20/Apr/2023 19:38:04] "GET /show/Wardrobe/39 HTTP/1.1" 200 -
+2023-04-20 19:38:05,085 - werkzeug - INFO - 127.0.0.1 - - [20/Apr/2023 19:38:05] "[36mGET /static/img/pfp/base_png.jpg HTTP/1.1[0m" 304 -
+2023-04-20 19:38:05,093 - werkzeug - INFO - 127.0.0.1 - - [20/Apr/2023 19:38:05] "[36mGET /static/img/wardrobe/pic_Cowboy.png HTTP/1.1[0m" 304 -
+2023-04-20 19:38:08,436 - werkzeug - INFO - 127.0.0.1 - - [20/Apr/2023 19:38:08] "GET /show/Wardrobe/40 HTTP/1.1" 200 -
+2023-04-20 19:38:08,532 - werkzeug - INFO - 127.0.0.1 - - [20/Apr/2023 19:38:08] "GET /static/img/wardrobe/pic_Cowboy1.png HTTP/1.1" 200 -
+2023-04-20 19:38:08,597 - werkzeug - INFO - 127.0.0.1 - - [20/Apr/2023 19:38:08] "[36mGET /static/img/pfp/base_png.jpg HTTP/1.1[0m" 304 -
+2023-04-20 19:38:13,154 - werkzeug - INFO - 127.0.0.1 - - [20/Apr/2023 19:38:13] "GET /show/Wardrobe/40 HTTP/1.1" 200 -
+2023-04-20 19:38:13,355 - werkzeug - INFO - 127.0.0.1 - - [20/Apr/2023 19:38:13] "[36mGET /static/img/pfp/base_png.jpg HTTP/1.1[0m" 304 -
+2023-04-20 19:38:13,407 - werkzeug - INFO - 127.0.0.1 - - [20/Apr/2023 19:38:13] "[36mGET /static/img/wardrobe/pic_Cowboy1.png HTTP/1.1[0m" 304 -
+2023-04-20 19:38:23,600 - werkzeug - INFO - 127.0.0.1 - - [20/Apr/2023 19:38:23] "GET /info HTTP/1.1" 200 -
+2023-04-20 19:38:23,738 - werkzeug - INFO - 127.0.0.1 - - [20/Apr/2023 19:38:23] "[36mGET /static/img/pfp/base_png.jpg HTTP/1.1[0m" 304 -
+2023-04-20 19:38:25,166 - werkzeug - INFO - 127.0.0.1 - - [20/Apr/2023 19:38:25] "[32mGET /users/del/9 HTTP/1.1[0m" 302 -
+2023-04-20 19:38:25,282 - werkzeug - INFO - 127.0.0.1 - - [20/Apr/2023 19:38:25] "GET / HTTP/1.1" 200 -
