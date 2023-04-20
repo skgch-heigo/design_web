@@ -440,7 +440,6 @@ def additional_edit(type_, id_):
         abort(403)
     db_sess = db_session.create_session()
     old_obj = db_sess.get(TABLES_CLASSES[type_], id_)
-    table = TABLES_CLASSES[type_]
     if not old_obj:
         abort(404)
     if type_ in SIMPLE:
@@ -458,7 +457,7 @@ def additional_edit(type_, id_):
                     i = 1
                     where = "pic_" + form.name.data + str(i) + ".png"
                     while os.path.exists(os.path.join("static/img", type_.lower() + "/pic_" +
-                                                                    form.name.data + str(i) + ".png")):
+                                                      form.name.data + str(i) + ".png")):
                         i += 1
                         where = "pic_" + form.name.data + str(i) + ".png"
                 f = form.picture.data
@@ -1241,25 +1240,6 @@ def users_set_access(id_, access):
     obj.access = access
     db_sess.commit()
     return redirect("/users/!!!None")
-
-
-# @app.route('/login', methods=['GET', 'POST'])
-# def login():
-#     form = LoginInForm()
-#     if form.validate_on_submit():
-#         db_sess = db_session.create_session()
-#         user = db_sess.query(User).filter(User.email == form.email.data).first()
-#         # print(form.password.data)
-#         # если вам скучно, то разкомментируйте эту^ строку
-#         # запустите сервер и отправьте ссылку в классный чат с просьбой потестить
-#         # 100% кто-нибудь зарегистрируется с настоящими почтой и паролем (уже такое было)
-#         if user and user.check_password(form.password.data):
-#             login_user(user, remember=form.remember_me.data)
-#             return redirect("/")
-#         return render_template('login_in.html',
-#                                message="Неправильный логин или пароль",
-#                                form=form, title="Неудача")
-#     return render_template('login_in.html', title='Авторизация', form=form)
 
 
 @app.route('/register', methods=['GET', 'POST'])
