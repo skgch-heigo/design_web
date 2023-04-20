@@ -6,7 +6,13 @@
 <div class="d-md-flex flex-md-equal w-100 my-md-3 ps-md-3">
     <p class="col- fs-4">
     {% for item in data %}
+        {% if item != "deleted" %}
+        {% if item != "type_" %}
         {{item}}: {{data[item]}}<br>
+        {% else %}
+        type: {{data[item]}}<br>
+        {% endif %}
+        {% endif %}
         {% endfor %}
     </p>
     <div class="col-md-10 mx-auto col-lg-5">

@@ -26,9 +26,7 @@
         <th scope="col">Ткань</th>
         <th scope="col">Узор</th>
         <th scope="col">Изображение</th>
-        {% if current_user.is_authenticated and current_user.access >= 2 %}
         <th scope="col"></th>
-        {% endif %}
     </tr>
     </thead>
     <tbody>
@@ -41,10 +39,8 @@
         <td>{{ data[item][4] }}</td>
         <td>{{ data[item][5] }}</td>
         <td>{{ data[item][6] }}</td>
-        {% if current_user.is_authenticated and current_user.access >= 2 %}
         <td><a class="btn btn-primary" href="/wardrobe/edit/{{data[item][7]}}" role="button">Изменить</a><br><br>
             <a class="btn btn-primary" href="/wardrobe/del/{{data[item][7]}}" role="button">Удалить</a></td>
-        {% endif %}
     </tr>
     {% endfor %}
     </tbody>

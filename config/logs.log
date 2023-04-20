@@ -2479,3 +2479,85 @@ jinja2.exceptions.TemplateSyntaxError: Encountered unknown tag 'endblock'. You p
 2023-04-19 17:45:09,288 - werkzeug - INFO - 127.0.0.1 - - [19/Apr/2023 17:45:09] "GET /contacts HTTP/1.1" 200 -
 2023-04-19 17:45:09,873 - werkzeug - INFO - 127.0.0.1 - - [19/Apr/2023 17:45:09] "GET /static/img/backs/img.png HTTP/1.1" 200 -
 2023-04-19 17:45:24,815 - werkzeug - INFO - 127.0.0.1 - - [19/Apr/2023 17:45:24] "GET /main HTTP/1.1" 200 -
+2023-04-20 19:11:05,439 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-04-20 19:11:05,476 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2023-04-20 19:11:08,999 - werkzeug - INFO - 127.0.0.1 - - [20/Apr/2023 19:11:08] "GET / HTTP/1.1" 200 -
+2023-04-20 19:11:09,464 - werkzeug - INFO - 127.0.0.1 - - [20/Apr/2023 19:11:09] "GET /favicon-16x16.png HTTP/1.1" 200 -
+2023-04-20 19:11:09,489 - werkzeug - INFO - 127.0.0.1 - - [20/Apr/2023 19:11:09] "GET /apple-touch-icon.png HTTP/1.1" 200 -
+2023-04-20 19:11:20,822 - werkzeug - INFO - 127.0.0.1 - - [20/Apr/2023 19:11:20] "[32mPOST / HTTP/1.1[0m" 302 -
+2023-04-20 19:11:20,862 - werkzeug - INFO - 127.0.0.1 - - [20/Apr/2023 19:11:20] "GET / HTTP/1.1" 200 -
+2023-04-20 19:11:21,695 - werkzeug - INFO - 127.0.0.1 - - [20/Apr/2023 19:11:21] "[35m[1mGET /static/music/ragtime.mp3 HTTP/1.1[0m" 206 -
+2023-04-20 19:11:21,728 - werkzeug - INFO - 127.0.0.1 - - [20/Apr/2023 19:11:21] "GET /static/img/pfp/base_png.jpg HTTP/1.1" 200 -
+2023-04-20 19:11:29,287 - werkzeug - INFO - 127.0.0.1 - - [20/Apr/2023 19:11:29] "GET /additional/Clasps/!!!None HTTP/1.1" 200 -
+2023-04-20 19:11:29,454 - werkzeug - INFO - 127.0.0.1 - - [20/Apr/2023 19:11:29] "[36mGET /static/img/pfp/base_png.jpg HTTP/1.1[0m" 304 -
+2023-04-20 19:11:37,005 - werkzeug - INFO - 127.0.0.1 - - [20/Apr/2023 19:11:37] "GET /main HTTP/1.1" 200 -
+2023-04-20 19:11:37,185 - werkzeug - INFO - 127.0.0.1 - - [20/Apr/2023 19:11:37] "[36mGET /static/img/pfp/base_png.jpg HTTP/1.1[0m" 304 -
+2023-04-20 19:14:40,003 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-04-20 19:14:40,003 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2023-04-20 19:14:51,698 - werkzeug - INFO - 127.0.0.1 - - [20/Apr/2023 19:14:51] "GET / HTTP/1.1" 200 -
+2023-04-20 19:14:52,573 - werkzeug - INFO - 127.0.0.1 - - [20/Apr/2023 19:14:52] "GET /static/img/pfp/base_png.jpg HTTP/1.1" 200 -
+2023-04-20 19:14:52,651 - werkzeug - INFO - 127.0.0.1 - - [20/Apr/2023 19:14:52] "[35m[1mGET /static/music/ragtime.mp3 HTTP/1.1[0m" 206 -
+2023-04-20 19:15:03,219 - werkzeug - INFO - 127.0.0.1 - - [20/Apr/2023 19:15:03] "[32mGET /logout HTTP/1.1[0m" 302 -
+2023-04-20 19:15:03,247 - werkzeug - INFO - 127.0.0.1 - - [20/Apr/2023 19:15:03] "GET / HTTP/1.1" 200 -
+2023-04-20 19:15:55,932 - werkzeug - INFO - 127.0.0.1 - - [20/Apr/2023 19:15:55] "[32mPOST / HTTP/1.1[0m" 302 -
+2023-04-20 19:15:55,982 - werkzeug - INFO - 127.0.0.1 - - [20/Apr/2023 19:15:55] "GET / HTTP/1.1" 200 -
+2023-04-20 19:15:56,088 - werkzeug - INFO - 127.0.0.1 - - [20/Apr/2023 19:15:56] "[36mGET /static/img/pfp/base_png.jpg HTTP/1.1[0m" 304 -
+2023-04-20 19:15:58,985 - werkzeug - INFO - 127.0.0.1 - - [20/Apr/2023 19:15:58] "GET /wardrobe/!!!None HTTP/1.1" 200 -
+2023-04-20 19:15:59,106 - werkzeug - INFO - 127.0.0.1 - - [20/Apr/2023 19:15:59] "[36mGET /static/img/pfp/base_png.jpg HTTP/1.1[0m" 304 -
+2023-04-20 19:18:40,523 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-04-20 19:18:40,525 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2023-04-20 19:18:40,901 - werkzeug - INFO - 127.0.0.1 - - [20/Apr/2023 19:18:40] "GET / HTTP/1.1" 200 -
+2023-04-20 19:18:41,602 - werkzeug - INFO - 127.0.0.1 - - [20/Apr/2023 19:18:41] "GET /static/img/pfp/base_png.jpg HTTP/1.1" 200 -
+2023-04-20 19:18:45,064 - werkzeug - INFO - 127.0.0.1 - - [20/Apr/2023 19:18:45] "GET /wardrobe/!!!None HTTP/1.1" 200 -
+2023-04-20 19:18:45,161 - werkzeug - INFO - 127.0.0.1 - - [20/Apr/2023 19:18:45] "[36mGET /static/img/pfp/base_png.jpg HTTP/1.1[0m" 304 -
+2023-04-20 19:18:46,431 - werkzeug - INFO - 127.0.0.1 - - [20/Apr/2023 19:18:46] "GET /show/Wardrobe/24 HTTP/1.1" 200 -
+2023-04-20 19:18:46,535 - werkzeug - INFO - 127.0.0.1 - - [20/Apr/2023 19:18:46] "[36mGET /static/img/pfp/base_png.jpg HTTP/1.1[0m" 304 -
+2023-04-20 19:18:46,547 - werkzeug - INFO - 127.0.0.1 - - [20/Apr/2023 19:18:46] "GET /static/img/data/no_photo.png HTTP/1.1" 200 -
+2023-04-20 19:18:50,675 - werkzeug - INFO - 127.0.0.1 - - [20/Apr/2023 19:18:50] "GET /main HTTP/1.1" 200 -
+2023-04-20 19:18:50,779 - werkzeug - INFO - 127.0.0.1 - - [20/Apr/2023 19:18:50] "[36mGET /static/img/pfp/base_png.jpg HTTP/1.1[0m" 304 -
+2023-04-20 19:22:46,636 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-04-20 19:22:46,636 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2023-04-20 19:22:48,044 - werkzeug - INFO - 127.0.0.1 - - [20/Apr/2023 19:22:48] "GET /main HTTP/1.1" 200 -
+2023-04-20 19:22:48,965 - werkzeug - INFO - 127.0.0.1 - - [20/Apr/2023 19:22:48] "[36mGET /static/img/pfp/base_png.jpg HTTP/1.1[0m" 304 -
+2023-04-20 19:22:50,045 - werkzeug - INFO - 127.0.0.1 - - [20/Apr/2023 19:22:50] "GET /wardrobe/!!!None HTTP/1.1" 200 -
+2023-04-20 19:22:50,147 - werkzeug - INFO - 127.0.0.1 - - [20/Apr/2023 19:22:50] "[36mGET /static/img/pfp/base_png.jpg HTTP/1.1[0m" 304 -
+2023-04-20 19:22:50,954 - main - ERROR - Exception on /show/Wardrobe/24 [GET]
+Traceback (most recent call last):
+  File "C:\Program Files\Python39\lib\site-packages\flask\app.py", line 2528, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Program Files\Python39\lib\site-packages\flask\app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Program Files\Python39\lib\site-packages\flask_restful\__init__.py", line 271, in error_router
+    return original_handler(e)
+  File "C:\Program Files\Python39\lib\site-packages\flask\app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Program Files\Python39\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "D:\PythonProg\design_web\main.py", line 174, in element_information
+    data[i] = db_sess.query(TABLES_CLASSES[data["type_"]]).filter(TABLES_CLASSES[RELATIONS[i]].id ==
+KeyError: 'name'
+2023-04-20 19:22:51,004 - werkzeug - INFO - 127.0.0.1 - - [20/Apr/2023 19:22:51] "[35m[1mGET /show/Wardrobe/24 HTTP/1.1[0m" 500 -
+2023-04-20 19:22:51,194 - werkzeug - INFO - 127.0.0.1 - - [20/Apr/2023 19:22:51] "GET /favicon.ico HTTP/1.1" 200 -
+2023-04-20 19:23:21,528 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-04-20 19:23:21,528 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2023-04-20 19:23:21,825 - werkzeug - INFO - 127.0.0.1 - - [20/Apr/2023 19:23:21] "GET /show/Wardrobe/24 HTTP/1.1" 200 -
+2023-04-20 19:23:22,518 - werkzeug - INFO - 127.0.0.1 - - [20/Apr/2023 19:23:22] "[36mGET /static/img/pfp/base_png.jpg HTTP/1.1[0m" 304 -
+2023-04-20 19:23:22,519 - werkzeug - INFO - 127.0.0.1 - - [20/Apr/2023 19:23:22] "[36mGET /static/img/data/no_photo.png HTTP/1.1[0m" 304 -
+2023-04-20 19:28:29,896 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-04-20 19:28:29,896 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2023-04-20 19:28:34,897 - werkzeug - INFO - 127.0.0.1 - - [20/Apr/2023 19:28:34] "GET / HTTP/1.1" 200 -
+2023-04-20 19:28:35,437 - werkzeug - INFO - 127.0.0.1 - - [20/Apr/2023 19:28:35] "GET /static/img/pfp/base_png.jpg HTTP/1.1" 200 -
+2023-04-20 19:28:37,190 - werkzeug - INFO - 127.0.0.1 - - [20/Apr/2023 19:28:37] "GET /wardrobe/!!!None HTTP/1.1" 200 -
+2023-04-20 19:28:37,340 - werkzeug - INFO - 127.0.0.1 - - [20/Apr/2023 19:28:37] "[36mGET /static/img/pfp/base_png.jpg HTTP/1.1[0m" 304 -
+2023-04-20 19:28:38,525 - werkzeug - INFO - 127.0.0.1 - - [20/Apr/2023 19:28:38] "GET /show/Wardrobe/24 HTTP/1.1" 200 -
+2023-04-20 19:28:38,679 - werkzeug - INFO - 127.0.0.1 - - [20/Apr/2023 19:28:38] "[36mGET /static/img/data/no_photo.png HTTP/1.1[0m" 304 -
+2023-04-20 19:28:38,679 - werkzeug - INFO - 127.0.0.1 - - [20/Apr/2023 19:28:38] "GET /static/img/pfp/base_png.jpg HTTP/1.1" 200 -
+2023-04-20 19:30:02,545 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+2023-04-20 19:30:02,545 - werkzeug - INFO - [33mPress CTRL+C to quit[0m

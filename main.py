@@ -170,7 +170,14 @@ def element_information(table, id_):
     for i in fields:
         data[i] = getattr(obj, i)
     for i in fields:
-        if i in RELATIONS:
+        if table == "Wardrobe" and i == "name":
+            data[i] = db_sess.query(TABLES_CLASSES[data["type_"]]).filter(TABLES_CLASSES[data["type_"]].id ==
+                                                                         data[i]).first()
+            if data[i]:
+                data[i] = data[i].name
+            else:
+                data[i] = ""
+        elif i in RELATIONS:
             data[i] = db_sess.query(TABLES_CLASSES[RELATIONS[i]]).filter(TABLES_CLASSES[RELATIONS[i]].id ==
                                                                              data[i]).first()
             if data[i]:
