@@ -729,7 +729,7 @@ def hats_edit(id_):
     form.appearance_year.default = old["appearance_year"]
     form.popularity_start.default = old["popularity_start"]
     form.popularity_end.default = old["popularity_end"]
-    form.popularity_end.default = old["popularity_end"]
+    form.origin.default = old["origin"]
     form.features.default = old["features"]
     form.season.default = old["season"]
     form.brim.default = old["brim"]
@@ -796,7 +796,6 @@ def boots_edit(id_):
     old_obj = db_sess.get(Boots, id_)
     if not old_obj:
         abort(404)
-    form = BootsForm()
     old = {"name": old_obj.name,
            "appearance_year": old_obj.appearance_year,
            "popularity_start": old_obj.popularity_start,
@@ -852,7 +851,7 @@ def boots_edit(id_):
     form.appearance_year.default = old["appearance_year"]
     form.popularity_start.default = old["popularity_start"]
     form.popularity_end.default = old["popularity_end"]
-    form.popularity_end.default = old["popularity_end"]
+    form.origin.default = old["origin"]
     form.features.default = old["features"]
     form.season.default = old["season"]
     form.heel.default = old["heel"]
@@ -986,7 +985,7 @@ def lower_body_edit(id_):
     form.appearance_year.default = old["appearance_year"]
     form.popularity_start.default = old["popularity_start"]
     form.popularity_end.default = old["popularity_end"]
-    form.popularity_end.default = old["popularity_end"]
+    form.origin.default = old["origin"]
     form.features.default = old["features"]
     form.season.default = old["season"]
     form.fit.default = old["fit"]
@@ -1135,12 +1134,12 @@ def upper_body_edit(id_):
     form.appearance_year.default = old["appearance_year"]
     form.popularity_start.default = old["popularity_start"]
     form.popularity_end.default = old["popularity_end"]
-    form.popularity_end.default = old["popularity_end"]
+    form.origin.default = old["origin"]
     form.features.default = old["features"]
     form.season.default = old["season"]
     form.sleeves.default = old["sleeves"]
     form.collar.default = old["collar"]
-    form.lapels.default = old["collar"]
+    form.lapels.default = old["lapels"]
     form.fitted.default = old["fitted"]
     form.pockets.default = old["pockets"]
     form.hood.default = old["hood"]
